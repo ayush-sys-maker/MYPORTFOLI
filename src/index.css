@@ -1,0 +1,528 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@301,400&f[]=ranade@400&f[]=stardom@400&f[]=tabular@400&f[]=bespoke-stencil@300&f[]=bevellier@601&f[]=panchang@500&f[]=tanker@400&display=swap");
+
+.hero,.navbar,.about{
+  background-color:#F4ECD6;
+}
+
+
+
+
+.about{
+  height: 107vh;
+}
+
+.projects{
+  background-color:#E5DFCC;
+  height: 120vh;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+    
+    
+  }
+ 
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+
+@keyframes scale {
+  0% {
+   
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Name{
+  animation: slide 1s ease-in forwards;
+}
+
+.Image>img{
+  animation: scale 1s ease-in forwards;
+}
+
+.card{
+ opacity: 0;
+}
+
+.card.animate{
+animation: slide 1s ease-in forwards;
+}
+ 
+.description{
+ opacity: 0;
+}
+
+.description.animate{
+animation: slide 1s ease-in forwards;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  background-color: #F4ECD6;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+ font-family: 'satoshi', sans-serif;
+ 
+ font-size: 1.2rem;
+
+
+}
+
+
+
+@media (min-width: 768px) {
+
+  
+  .navcontent{
+    margin-left: 40px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    
+  }
+.Image>img {
+  max-width: 600px;
+  max-height: 700px;
+  border-radius: 2%;
+  margin-left: 200px;
+  margin-top: 10px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+.Name {
+    margin-left: 100px;
+    margin-top: 200px;
+    
+    font-family: 'panchang', sans-serif;
+    font-weight: bold;
+   
+}
+.Name>h1{
+  font-size: 3rem;
+}
+
+.Name>p {
+ font-size: 2rem;
+ font-family: 'satoshi', sans-serif;
+ font-weight: 600;
+}
+.card{
+  max-width: 400px;
+
+}
+.card0{
+  position: absolute;
+  left: 1000px;
+  margin-top: 80px;
+
+}
+.card2{
+  position: absolute;
+left: 50px;
+top: -360px;
+max-height: 350px;
+max-width:450px ;
+font-family: 'satoshi', sans-serif;
+
+}
+
+.skills{
+position: absolute;
+left: 50px;
+top: 920px;
+font-family: 'satoshi', sans-serif;
+
+}
+
+
+.project1{
+  width: 950px;   /* control width */
+  margin-left: 300px;
+margin-top: 50px;
+
+}
+
+.carousel{
+ margin-left: 50px;
+}
+  
+.carousel,
+.carousel-item {
+  background-color: transparent !important;
+  color: black!important;
+}
+
+.carousel-item>img{
+  width: 300px;   /* control width */
+}
+
+
+
+.description p {
+  max-width: 700px; /* adjust based on your layout */
+  margin: 0 auto; /* centers the paragraph */
+  line-height: 1.6; /* makes it easier to read */
+  font-size: 16px;
+  text-align: center; /* optional for centered text */
+  font-family: 'satoshi', sans-serif;
+}
+
+.PROJECTNAME{
+ text-align: center;
+  font-size: 1.5rem;
+  font-family: 'satoshi', sans-serif;
+  margin-bottom: 15px;
+  
+}
+
+.Pheading{
+ font-family: 'panchang', sans-serif;
+ padding-top: 50px;
+}
+.Aheading{
+ font-family: 'panchang', sans-serif;
+ padding-top: 20px;
+}
+
+.footer{
+ 
+  width: 100%;
+  background-color: black;
+  margin-bottom: 0;
+  display: flex;
+  justify-content:space-evenly;
+ 
+}
+
+.footer h2{
+  margin-top: 50px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 3rem;
+}
+
+.SEC1,.SEC2,.SEC3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+}
+
+.footerheading{
+  margin-bottom: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.SEC1,.SEC2,.SEC3 >p>a  {
+text-decoration: none;
+
+}
+
+
+.footerlink{
+  color: #f3f7f09f;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text{
+  font-family: 'satoshi', sans-serif;
+  font-size: 1.3rem;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+.pr-1{
+ margin-left: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*PHONE*/
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4ECD6;
+    font-family: 'satoshi', sans-serif;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .navcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0.5rem 0;
+    width: 100%;
+
+  }
+
+  .navcontent p {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+.Image>img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 2%;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.Name {
+font-family: 'panchang', sans-serif;
+ margin-top:90px;
+font-size: 12px;
+margin-left: 10px;
+}
+.Name>h1{
+  
+  font-family: 'panchang', sans-serif;
+  font-size: 20px;
+}
+.card{
+ 
+  margin-left: 10px;
+  
+ 
+}
+
+.card0{ 
+  margin-top: 30px;
+  max-width: 370px;
+  max-height: 400px;
+  font-size: 12px;
+}
+.skills{
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  font-family: 'satoshi', sans-serif;
+  font-size: 12px;
+  justify-content: center;
+
+}
+.card2{
+  margin-top: 10px;
+  font-size: 12px;
+  max-width: 370px;
+  max-height: 400px;
+}
+
+
+.description p {
+  max-width: 350px; /* adjust based on your layout */
+  margin: 0 auto; /* centers the paragraph */
+  line-height: 1.7; /* makes it easier to read */
+  font-size: 16px;
+  text-align: center; /* optional for centered text */
+  margin-bottom: 10px ;
+}
+
+.PROJECTNAME{
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: medium;
+  text-align: center;
+}
+.Pheading{
+  font-family: 'panchang', sans-serif;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+.Aheading{
+  font-family: 'panchang', sans-serif;
+  font-size: 2rem;
+  padding-top: 30px;
+}
+.projects{
+  padding-top: 20px;
+  margin-bottom: 0;
+  height: 95vh;
+}
+
+
+.footer{
+ 
+  background-color: black;
+ width: 100%;
+ height: 90vh;
+
+  background-color: black;
+  
+  display:block;
+}
+
+
+.carousel,
+.carousel-item {
+  background-color: transparent !important;
+  color: black!important;
+}
+
+
+.footer>h2{
+
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 3rem;
+  
+}
+
+.footerlink{
+  color: #f3f7f09f;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.SEC1,.SEC2,.SEC3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 35%;
+  
+ 
+}
+
+.footerheading{
+  margin-bottom: 20px;
+
+
+
+}
+
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+.carousel-container {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #555;
+  border-radius: 16px;
+  margin: auto;
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+}
+
+.carousel-item {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0d0716;
+  color: white;
+  padding: 20px;
+}
+
+.carousel-icon-container {
+  width: 520px;
+  height: 120px;
+  border: 2px solid red; /* debug */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.carousel-icon-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.carousel-indicator {
+  width: 10px;
+  height: 10px;
+  background: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-indicator.active {
+  background: white;
+}
