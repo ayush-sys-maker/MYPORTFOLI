@@ -329,16 +329,19 @@ text-decoration: none;
   display: flex;
   justify-content: center;
 }
+.about{
+  height: 115vh;
+}
 .Name {
 font-family: 'panchang', sans-serif;
  margin-top:90px;
-font-size: 12px;
+font-size: 10px;
 margin-left: 10px;
 }
 .Name>h1{
   
   font-family: 'panchang', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 .card{
  
@@ -399,7 +402,7 @@ margin-left: 10px;
 .projects{
   padding-top: 20px;
   margin-bottom: 0;
-  height: 95vh;
+  height: 115vh;
 }
 
 
@@ -450,6 +453,8 @@ margin-left: 10px;
 
 
 }
+
+
 
 
 
